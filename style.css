@@ -1,0 +1,56 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
+}
+
+body {
+  align-items: center;
+  background-color: var(--lightGrey);
+  display: flex;
+  font-family: "Outfit", sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 500px;
+  margin: 16px;
+  width: 320px;
+}
+
+.qrCode {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.qrCode img {
+  border-radius: 10px;
+  width: 280px;
+}
+
+.content {
+  padding-top: 10px;
+  padding: 24px;
+}
+
+.heading {
+  color: var(--darkBlue);
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+}
+
+.content p {
+  color: var(--grayishBlue);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+  word-spacing: 2px;
+}
